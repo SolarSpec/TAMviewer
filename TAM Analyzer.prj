@@ -1,29 +1,35 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration file="D:\Work\SolaSpecTAM\TAM Analyzer.prj" location="D:\Work\SolaSpecTAM" name="TAM Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3520803347" file="D:\Work\SolaSpecTAM\TAM Analyzer.prj" location="D:\Work\SolaSpecTAM" name="TAM Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM Analyzer</param.appname>
     <param.authnamewatermark>James Kivai</param.authnamewatermark>
-    <param.email />
+    <param.email>william.james.jw@gmail.com</param.email>
     <param.company>SolarSpec (UBC-O)</param.company>
     <param.icon />
     <param.icons />
     <param.summary>This is a Transient Absorption Microscopy data analyzer</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\James Kivai\AppData\Local\Temp\tpd7d31f3e_1f20_43a9_99ee_6136cc556f7c.png</param.screenshot>
-    <param.version>1.1.0</param.version>
-    <param.products.name />
-    <param.products.id />
-    <param.products.version />
+    <param.screenshot>${PROJECT_ROOT}\Icon.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Image Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>17</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.10</item>
+      <item>11.3</item>
+    </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>26b5f14f-6e05-4ae4-9115-38cb0ea9f035</param.guid>
     <unset>
-      <param.email />
       <param.icon />
       <param.icons />
       <param.description />
-      <param.products.name />
-      <param.products.id />
-      <param.products.version />
+      <param.version />
       <param.platforms />
       <param.output />
     </unset>
@@ -31,8 +37,22 @@
       <file>${PROJECT_ROOT}\TAM_Analyzer.mlapp</file>
     </fileset.main>
     <fileset.depfun>
+      <file>${PROJECT_ROOT}\Delete.png</file>
       <file>${PROJECT_ROOT}\Icon.png</file>
       <file>${PROJECT_ROOT}\LoadDataDialogApp.mlapp</file>
+      <file>${PROJECT_ROOT}\MATLAB data scripts\lin2log_TAS.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\TDMS_readTDMSFile.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataSize.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataTypeName.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_getGroupChanNames.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_getPropValue.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_getTypeSeekSizes.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_handleGetDataOption.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_initData.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_preprocessFile.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_processLeadIn.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v1.m</file>
+      <file>${PROJECT_ROOT}\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v2.m</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
