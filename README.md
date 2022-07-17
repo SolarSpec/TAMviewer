@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SolarSpec/TAMviewer">
-    <img src="images/logo.png" alt="SolarSpec" width="160" height="120">
+    <img src="TAM_Analyzer_resources/logo.png" alt="SolarSpec" width="160" height="120">
   </a>
 
 <h3 align="center">TAMviewer</h3>
@@ -124,6 +124,17 @@ _For more information on any of the internal functions, please refer to the [MAT
 <!-- ROADMAP -->
 ## Roadmap
 
+* [X] Plot the sorted X and Y coordinates in a pixel plot
+* [X] Plot the Average Kinetic Trace of all files
+  * [X] Select the Kinetic Trace of a specified file
+* [X] Find or input the T0 time
+  * [X] Calculate the T50% automatically
+  * [X] Plot a histogram of each file's T50 value
+* [X] Plot a heatmap of all the DC background values that correspond to the sorted pixel plot
+* [X] Select multiple regions to change average of selected pixels
+
+</br>
+
 See the [open issues](https://github.com/SolarSpec/TAMviewer/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -193,4 +204,4 @@ Project Link: [https://github.com/SolarSpec/TAMviewer](https://github.com/SolarS
 [license-url]: https://github.com/SolarSpec/TAMviewer/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/haris-vidimlic-06730019b/
-[product-screenshot]: images/Screenshot.png
+[product-screenshot]: TAM_Analyzer_resources/Screenshot.png
