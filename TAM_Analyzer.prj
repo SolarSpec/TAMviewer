@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="4217732382" file="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="649887141" file="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpbe39bce6_bcc5_4851_9707_8f2a778a314e.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpa561c1bd_5138_49dc_a651_cd75a881d348.png</param.screenshot>
     <param.version>1.1</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -45,21 +45,21 @@
       <file>${PROJECT_ROOT}\TAM_Analyzer.mlapp</file>
     </fileset.main>
     <fileset.depfun>
+      <file>${PROJECT_ROOT}\DataScripts\Converters\lin2log_TAS.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\TDMS_readTDMSFile.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getDataSize.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getDataTypeName.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getGroupChanNames.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getPropValue.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getTypeSeekSizes.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_handleGetDataOption.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_initData.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_preprocessFile.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_processLeadIn.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_readFileHelper_v1.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_readFileHelper_v2.m</file>
       <file>${PROJECT_ROOT}\Icons\Delete.png</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\Chang's App\images\logo.png</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\MATLAB data scripts\lin2log_TAS.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\TDMS_readTDMSFile.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataSize.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataTypeName.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_getGroupChanNames.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_getPropValue.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_getTypeSeekSizes.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_handleGetDataOption.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_initData.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_preprocessFile.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_processLeadIn.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v1.m</file>
-      <file>C:\Users\hvidi\The University Of British Columbia\Godin, Robert - Group space\Haris Vidimlic\PIAS Repo\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v2.m</file>
+      <file>${PROJECT_ROOT}\Icons\Logo.png</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
