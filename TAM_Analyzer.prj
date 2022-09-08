@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2488797468" file="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3878097430" file="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpd9314407_671f_45fb_bac1_5dab77e03897.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp59012ce8_2865_4045_b533_4dd3168db752.png</param.screenshot>
     <param.version>1.5</param.version>
     <param.products.name>
       <item>MATLAB</item>
