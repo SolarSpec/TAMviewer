@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3856616717" file="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3280326830" file="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tp93ca4e91_dd86_4754_bcc4_e9789ad4b504.png</param.screenshot>
+    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tp085c7fef_3281_4b3f_930e_735905afe42a.png</param.screenshot>
     <param.version>1.5</param.version>
     <param.products.name>
       <item>MATLAB</item>
