@@ -76,6 +76,8 @@ Importing and processing of TAM data
 ### Built With
 
 * [MATLAB](https://www.mathworks.com/products/matlab.html)
+* [TDMS Reader Addon](https://www.mathworks.com/matlabcentral/fileexchange/30023-tdms-reader)
+* [Curve Fitting Toolbox](https://www.mathworks.com/help/curvefit/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
