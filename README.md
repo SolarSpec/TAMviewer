@@ -67,6 +67,7 @@
 ## About The Project
 
 [![TAMviewer Screenshot][product-screenshot]](https://solarspec.ok.ubc.ca/)
+
 Importing and processing of TAM data
 
 <p align="right">(<a href="#top">back to top</a>)</p>
