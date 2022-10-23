@@ -67,6 +67,7 @@
 ## About The Project
 
 [![TAMviewer Screenshot][product-screenshot]](https://solarspec.ok.ubc.ca/)
+
 Importing and processing of TAM data
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -76,6 +77,8 @@ Importing and processing of TAM data
 ### Built With
 
 * [MATLAB](https://www.mathworks.com/products/matlab.html)
+* [TDMS Reader Addon](https://www.mathworks.com/matlabcentral/fileexchange/30023-tdms-reader)
+* [Curve Fitting Toolbox](https://www.mathworks.com/help/curvefit/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -96,11 +99,15 @@ Make sure MATLAB is installed. It is available for download in the Software Dist
    ```sh
    git clone https://github.com/SolarSpec/TAMviewer.git
    ```
-2. Browse repository
+2. Install the application 
    ```
-   View the relevant files
+   Click on the .mlappinstall file in your repository to open and install in MATLAB
    ```
-
+3. Browse the APPS header
+   ```
+   You will find the recently installed application and can add it to your favourites
+   ```
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
