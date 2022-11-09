@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="976048043" file="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2973268957" file="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tpada4a026_8fb7_4eab_bfdf_4320e997484d.png</param.screenshot>
+    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tp592a5abe_e78e_4e2e_9fbf_c4f19293e0b6.png</param.screenshot>
     <param.version>1.5</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -45,21 +45,21 @@
       <file>${PROJECT_ROOT}\TAM_Analyzer.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\DLSmultiAverage\images\logo.png</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\MATLAB data scripts\lin2log_TAS.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\TDMS_readTDMSFile.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataSize.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataTypeName.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getGroupChanNames.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getPropValue.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getTypeSeekSizes.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_handleGetDataOption.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_initData.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_preprocessFile.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_processLeadIn.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v1.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v2.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\Converters\lin2log_TAS.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\TDMS_readTDMSFile.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getDataSize.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getDataTypeName.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getGroupChanNames.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getPropValue.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getTypeSeekSizes.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_handleGetDataOption.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_initData.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_preprocessFile.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_processLeadIn.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_readFileHelper_v1.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_readFileHelper_v2.m</file>
       <file>${PROJECT_ROOT}\Icons\Delete.png</file>
+      <file>${PROJECT_ROOT}\Icons\Logo.png</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
