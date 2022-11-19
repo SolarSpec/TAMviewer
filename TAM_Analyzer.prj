@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2973268957" file="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2484374006" file="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tp592a5abe_e78e_4e2e_9fbf_c4f19293e0b6.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp24f29c1c_4bd2_4eeb_bdce_dbd54b892f51.png</param.screenshot>
     <param.version>1.5</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -64,11 +64,11 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Haris\Desktop\Platform-Repo" name="TAMviewer" optional="false">C:\Users\Haris\Desktop\Platform-Repo\TAMviewer</file>
+      <file location="C:\Users\hvidi\Desktop\Platform-Repo" name="TAMviewer" optional="false">C:\Users\hvidi\Desktop\Platform-Repo\TAMviewer</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>F:\MATLAB\R2022a</root>
+      <root>C:\Program Files\MATLAB\R2022a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
