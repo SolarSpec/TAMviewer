@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2331363500" file="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\Haris\Desktop\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1359548735" file="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tpb12304a5_7c46_4c76_a629_c2abaae06765.png</param.screenshot>
-    <param.version>1.5</param.version>
+    <param.screenshot>C:\Users\bob_e\AppData\Local\Temp\tpc157bb05_ad4b_42f7_87b0_ddb8bfa08dd2.png</param.screenshot>
+    <param.version>1.6</param.version>
     <param.products.name>
       <item>MATLAB</item>
       <item>Curve Fitting Toolbox</item>
@@ -42,68 +42,31 @@
       <file>${PROJECT_ROOT}\TAM_Analyzer.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\DLSmultiAverage\images\logo.png</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\MATLAB data scripts\lin2log_TAS.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\TDMS_readTDMSFile.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataSize.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getDataTypeName.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getGroupChanNames.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getPropValue.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_getTypeSeekSizes.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_handleGetDataOption.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_initData.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_preprocessFile.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_processLeadIn.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v1.m</file>
-      <file>C:\Users\Haris\Desktop\Platform-Repo\PIASgui\Matlab TDMS reader\tdmsSubfunctions\TDMS_readFileHelper_v2.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\Converters\lin2log_TAS.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\TDMS_readTDMSFile.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getDataSize.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getDataTypeName.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getGroupChanNames.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getPropValue.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_getTypeSeekSizes.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_handleGetDataOption.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_initData.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_preprocessFile.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_processLeadIn.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_readFileHelper_v1.m</file>
+      <file>${PROJECT_ROOT}\DataScripts\TDMS Reader\tdmsSubfunctions\TDMS_readFileHelper_v2.m</file>
       <file>${PROJECT_ROOT}\Icons\Delete.png</file>
+      <file>${PROJECT_ROOT}\Icons\Logo.png</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Haris\Desktop\Platform-Repo" name="TAMviewer" optional="false">C:\Users\Haris\Desktop\Platform-Repo\TAMviewer</file>
+      <file location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="TAMviewer" optional="false">C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>H:\Program Files\MATLAB\R2022b</root>
-      <toolboxes>
-        <toolbox name="matlabcoder" />
-        <toolbox name="embeddedcoder" />
-        <toolbox name="gpucoder" />
-        <toolbox name="fixedpoint" />
-        <toolbox name="matlabhdlcoder" />
-        <toolbox name="neuralnetwork" />
-      </toolboxes>
-      <toolbox>
-        <matlabcoder>
-          <enabled>true</enabled>
-        </matlabcoder>
-      </toolbox>
-      <toolbox>
-        <embeddedcoder>
-          <enabled>true</enabled>
-        </embeddedcoder>
-      </toolbox>
-      <toolbox>
-        <gpucoder>
-          <enabled>true</enabled>
-        </gpucoder>
-      </toolbox>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <matlabhdlcoder>
-          <enabled>true</enabled>
-        </matlabhdlcoder>
-      </toolbox>
-      <toolbox>
-        <neuralnetwork>
-          <enabled>true</enabled>
-        </neuralnetwork>
-      </toolbox>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes />
     </matlab>
     <platform>
       <unix>false</unix>
