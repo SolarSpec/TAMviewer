@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="594903630" file="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\TAMviewer\TAM_Analyzer.prj" location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3858551246" file="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\mirac\AppData\Local\Temp\tp6bc8d7b3_1e22_4b45_bfc6_c99aba8429d3.png</param.screenshot>
-    <param.version>1.6</param.version>
+    <param.screenshot>C:\Users\bob_e\AppData\Local\Temp\tp82dc34ab_3ab6_4f27_a5f3_0101f67cf74b.png</param.screenshot>
+    <param.version>1.7</param.version>
     <param.products.name>
       <item>MATLAB</item>
       <item>Curve Fitting Toolbox</item>
@@ -61,7 +61,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders" name="TAMviewer" optional="false">C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\TAMviewer</file>
+      <file location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="TAMviewer" optional="false">C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer</file>
     </build-deliverables>
     <workflow />
     <matlab>
