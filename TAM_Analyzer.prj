@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="246646236" file="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="630849144" file="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot />
+    <param.screenshot>C:\Users\bob_e\AppData\Local\Temp\tp436099d9_7d7a_4e07_8ac0_8a0a32a2987b.png</param.screenshot>
     <param.version>1.10</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -35,7 +35,6 @@
     <unset>
       <param.email />
       <param.description />
-      <param.screenshot />
       <param.platforms />
       <param.output />
     </unset>
