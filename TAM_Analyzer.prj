@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="630849144" file="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="830053935" file="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer\TAM_Analyzer.prj" location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer" name="TAM_Analyzer" target="target.mlapps" target-name="Package App">
     <param.appname>TAM_Analyzer</param.appname>
     <param.authnamewatermark>James Kivai, Robert Godin, Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Analysis app for SolarSpec TAM data</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\bob_e\AppData\Local\Temp\tp436099d9_7d7a_4e07_8ac0_8a0a32a2987b.png</param.screenshot>
-    <param.version>1.10</param.version>
+    <param.screenshot />
+    <param.version>1.11</param.version>
     <param.products.name>
       <item>MATLAB</item>
       <item>Curve Fitting Toolbox</item>
@@ -35,6 +35,7 @@
     <unset>
       <param.email />
       <param.description />
+      <param.screenshot />
       <param.platforms />
       <param.output />
     </unset>
@@ -61,12 +62,49 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="TAMviewer" optional="false">C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer</file>
+      <file location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="TAMviewer" optional="false">D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\TAMviewer</file>
     </build-deliverables>
     <workflow />
     <matlab>
       <root>C:\Program Files\MATLAB\R2022b</root>
-      <toolboxes />
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
     </matlab>
     <platform>
       <unix>false</unix>
